@@ -7,3 +7,16 @@ categories:
 
 테스트. 아무 글이나 쳐보기
 변호사의 손을 써서 내 신원을 조사하려고 한 것은 수긍이 간다. 또 그에 대해 내 성격을 조사하려는 것도 이해 못할 일은아니다. 술을 마신다던가 담배를 피운다던가
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		String A = sc.next();
+		System.out.print("    " + A);
+	}
+}
