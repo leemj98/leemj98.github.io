@@ -1,15 +1,12 @@
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% feed_meta %}
-  {% seo %}
-  
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
-  <link rel="stylesheet" href="{{ 'assets/css/open-color.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ 'assets/css/hydure.css' | relative_url }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="{{ 'assets/styles.css' | relative_url }}">
 
-  <script async src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+  {%- seo -%}
+  {%- feed_meta -%}
 
-  {% include custom-head.html %}
+  {%- include custom-head.html -%}
 </head>
